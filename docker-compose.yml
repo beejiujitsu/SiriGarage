@@ -1,0 +1,11 @@
+---
+services:
+  sirigarage:
+    container_name: sirigarage
+    build: .
+    restart: always
+    ports:
+      - 80:5001
+    volumes:
+      - ./config:/app/config
+version: '3'

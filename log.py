@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 
-from config import (NUMBER_OF_DOORS, SENSORS_PER_DOOR)
+from config.config import (NUMBER_OF_DOORS, SENSORS_PER_DOOR)
 
 logfile = open("static/log.txt","a")
 logfile.write(datetime.now().strftime("     Program Starting -- %Y/%m/%d -- %H:%M  -- Hello! \n"))

@@ -26,7 +26,7 @@ GPIO.output(13, GPIO.HIGH)
 GPIO.setup(15, GPIO.OUT)		#Not Used for the project
 GPIO.output(15, GPIO.HIGH)
 
-from config import (
+from config.config import (
 	PORT,
 	ENABLE_PASSWORD,
 	PASSWORD,
